@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Blog</title>
+    <style>
+        body {
+            background-color: purple;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+        }
+        .caption {
+            text-align: center;
+            margin-top: -20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="#stories">Stories</a> |
+            <a href="#images">Images</a> |
+            <a href="#about">About</a>
+        </h1>
+    </header>
+
+    <div class="gallery">
+        <!-- Repeat this section for each image -->
+        <div>
+            <img src="path/to/image1.jpg" alt="Landscape 1">
+            <div class="caption">Caption for Landscape 1</div>
+        </div>
+        <!-- Add more images as needed -->
+    </div>
+
+    <section id="stories">
+        <h2>Stories</h2>
+        <p>Content for the Stories section goes here.</p>
+    </section>
+
+    <section id="images">
+        <h2>Images</h2>
+        <p>Content for the Images section goes here.</p>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>Content for the About section goes here.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Photography Blog. All rights reserved.</p>
+        <p>Contact: info@photographyblog.com</p>
+        <p>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>
